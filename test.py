@@ -80,23 +80,23 @@ if __name__ == "__main__":
     # stop = time()
     # print(stop - start)
 
-    col = [(1, 2), (3, 4)]
-    df1 = df = pd.DataFrame(columns=col)
-    df.to_csv('t0.csv')
-    df.to_csv('t1.csv')
-    print(df)
-
-    s0 = pd.Series([3] * 2, index=col, name=0)
-    s1 = pd.Series([2] * 2, index=col, name=0)
-    df = df.append(s0)
-    df = df.append(s1)
-    df.to_csv('t0.csv')
-    df.to_csv('t2.csv')
-
-    df1 = df1.append(s1)
-    df1.to_csv('t2.csv')
-
-    print(df)
+    # col = [(1, 2), (3, 4)]
+    # df1 = df = pd.DataFrame(columns=col)
+    # df.to_csv('t0.csv')
+    # df.to_csv('t1.csv')
+    # print(df)
+    #
+    # s0 = pd.Series([3] * 2, index=col, name=0)
+    # s1 = pd.Series([2] * 2, index=col, name=0)
+    # df = df.append(s0)
+    # df = df.append(s1)
+    # df.to_csv('t0.csv')
+    # df.to_csv('t2.csv')
+    #
+    # df1 = df1.append(s1)
+    # df1.to_csv('t2.csv')
+    #
+    # print(df)
 
     # for i in range(0, 10):
     #     fn = 'file {0}'.format(i)
