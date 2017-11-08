@@ -185,7 +185,7 @@ class Brain():
                 state_action = state_action.reindex(
                     np.random.permutation(state_action.index))
                 # ======================================================= #
-                action_str = state_action.argmax()
+                action_str = state_action.idxmax()
                 # ======================================================= #
             else:
                 action_str = np.random.choice(usable_actions_str)

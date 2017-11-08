@@ -27,11 +27,11 @@ def game_on():
         # print('--------------------------------------------------------------')
         board0.cnt += 1
         dt = time() - t0
-        print('| round', board0.cnt, '| time: ',
+        '''print('| round', board0.cnt, '| time: ',
               round(dt, 1), 's | speed:', round((board0.cnt / dt), 1),
               'r/s | w:b -> ', gamer_w.cnt_win, ':', gamer_w.cnt_lose,
               '|        ',
-              end='\r')
+              end='\r')'''
 
         board0.tk_reset()
 
